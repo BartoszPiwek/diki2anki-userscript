@@ -1,0 +1,34 @@
+{
+	"name": "@bpiwek/diki2anki-userscript",
+	"version": "1.0.0",
+	"author": "Bartosz Piwek",
+	"homepage": "https://github.com/BartoszPiwek/diki2anki-userscript",
+	"scripts": {
+		"build": "webpack --config ./webpack.ts"
+	},
+	"bugs": {
+		"url": "https://github.com/BartoszPiwek/diki2anki-userscript/issues"
+	},
+	"repository": "https://github.com/BartoszPiwek/diki2anki-userscript.git",
+	"license": "MIT",
+	"dependencies": {
+		"@babel/core": "^7.15.8",
+		"@babel/preset-env": "^7.13.15",
+		"@babel/preset-react": "^7.13.13",
+		"@babel/preset-typescript": "^7.13.0",
+		"@types/terser-webpack-plugin": "^5.2.0",
+		"babel-loader": "^8.2.3",
+		"clean-webpack-plugin": "^4.0.0",
+		"terser-webpack-plugin": "^5.2.4",
+		"ts-loader": "^8.1.0",
+		"ts-node": "^9.1.1",
+		"typescript": "^4.2.4",
+		"webpack": "^5.33.2",
+		"webpack-cli": "^4.6.0"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/node": "^14.14.39",
+		"@types/webpack": "^5.28.0"
+	}
+}
