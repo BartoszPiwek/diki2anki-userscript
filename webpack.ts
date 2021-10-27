@@ -25,8 +25,8 @@ export default {
 	],
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: '[name].[contenthash].js',
-		chunkFilename: '[name].[chunkhash].bundle.js',
+		filename: '[name].js',
+		chunkFilename: '[name].bundle.js',
 		publicPath: '',
 	},
 	plugins: [
